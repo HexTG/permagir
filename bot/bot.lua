@@ -90,23 +90,14 @@ function create_config( )
 	"lock-fosh"
 	
  },
-    sudo_users = {123456789},
-    admins = {},
+    sudo_users = {253823514},
+    admins = {253823514},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》permag.ir v3
+    info_text = [[》 v3
 
 🔰Our channel :
-》@permag_bots《
-
-🔰Our channel2 :
-》@permag_ir《
-
-🔰Our channel3 :
-》@permag《
-
-🔰Our website :
-》http://permag.ir
+》@HaftCH《
 ]],
   }
   serialize_to_file(config, './data/config.lua')
